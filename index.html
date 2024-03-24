@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="module" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <script src="./js/script.js" type="module"></script>
+<script type="module" src="https://md-block.verou.me/md-block.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>Analog Digital Clock</title>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Analog Digital Clock</h1>
+  
+  
+  <div id="clockWrapper" class="clockWrapper">
+    <div class="hour">
+      <div id="arrowH_Wrapper">
+        <div id="arrow"></div>
+     </div>
+    </div>
+    <div class="dot">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+    <div class="minute">
+      
+     <div id="arrowM_Wrapper">
+        <div id="arrow"></div>
+     </div>
+    
+    </div>
+    <div class="dot">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+    <div class="second">
+ 
+      <div id="arrowS_Wrapper">
+      <div id="arrow"></div>
+      </div>
+      
+      <div class="centerDot"></div>
+    </div>
+  </div>
+</div>
+<div class="settingsWrapper">
+  <fieldset>
+    <legend>Pengaturan </legend>
+ 
+  <label for="roundess">Border Radius :<br>
+  <input min="0" max="50" value="0" id="roundess" type="range">
+  <span id="roundessValue">0%</span>
+  </label>
+ 
+  <label for="roundessDot">Border Radius Titik :<br>
+  <input min="0" max="5" value="0" id="roundessDot" type="range">
+  <span id="roundessDotValue">0%</span>
+  </label>
+  
+  <label for="borderSize">Border Size:<br>
+  <input min="1" max="5" value="0" id="borderSize" type="range">
+  <span id="borderSizeValue">0%</span>
+  </label>
+  
+  </fieldset>
+</div>
+
+
+<div class="buttonPos">
+  <a href="https://github.com/mininxd/Digital-Analog-Clock">
+  <button class="btn">Source Code</button>
+  </a>
+  <a href="https://mininxd.my.id/">
+  <button class="btn">Homepage</button>
+  </a>
+  <button id="captureEl" class="btn">Capture</button>
+</div>
+
+<div id='capturedWrapper'>
+  <img id="capturedEl">
+</div>
+
+
+<div class="footer">
+  <center>
+  <md-block>
+          [![Donate -
+          Saweria](https://img.shields.io/badge/Donate-Saweria-2ea44f?style=for-the-badge)](https://saweria.co/mininxd)
+        </md-block>
+  mininxd &copy; 2024 - present
+  </center>
+</div>
+</body>
+</html>

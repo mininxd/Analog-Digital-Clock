@@ -1,0 +1,58 @@
+
+div.hour, div.minute, div.second {
+/*  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNvwSRwFV19Dp-CfEMkiobCAZWeolDgmhoA&usqp=CAU"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+}
+div.dot {
+  border-radius: 100px;
+  padding: 15px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 10px;
+  padding: 10px;
+  height: 75px;
+}
+div.dot1, div.dot2 {
+  border: 1px solid #000;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  top: 0;
+}
+div.dot1 {
+  transform: translateY(10px);
+}
+div.dot2 {
+  transform: translateY(20px);
+}
+div#arrowS_Wrapper, div#arrowM_Wrapper, div#arrowH_Wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: fit-content;
+  top:50%;
+  left: 50%;
+}
+div#arrow {
+  transition: 0.3s ease;
+  z-index: 1;
+  width: 50%;
+  height: 2px;
+  background: #000;
+  border-radius: 0 10px 10px 0;
+}
+
+
+
