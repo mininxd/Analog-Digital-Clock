@@ -1,6 +1,6 @@
 
 div.hour, div.minute, div.second {
-/*  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNvwSRwFV19Dp-CfEMkiobCAZWeolDgmhoA&usqp=CAU"); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNvwSRwFV19Dp-CfEMkiobCAZWeolDgmhoA&usqp=CAU"); 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
