@@ -28,7 +28,7 @@ $("#roundessDot").on("input change", function() {
 })
 
 $("#borderSize").on("input change", function() {
-  $("#borderSizeValue").html($("#borderSize").val()*20 + "%");
+  $("#borderSizeValue").html($("#borderSize").val() + "px");
   $(".dot1").css("border-width", $("#borderSize").val()*0.5 + "px");
   $(".dot2").css("border-width", $("#borderSize").val()*0.5 + "px");
   
